@@ -27,7 +27,7 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #0000009f;
-    width: max(300px, calc(100vw - 70.45%));
+    width: max(200px, calc(100vw - 75%));
     padding: 2rem;
     color: #f5f5f5;
     font-size: 5.5rem;
