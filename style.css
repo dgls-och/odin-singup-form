@@ -39,4 +39,47 @@ html {
     padding-left: calc(3rem);
 }
 
+form p, fieldset, button {
+    font-size: var(--font-size);
+    margin: 2rem;
+}
+
+form p:first-of-type {
+    margin-top: 15rem;
+}
+
+fieldset {
+    border: 0;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0 2rem 1.5rem;
+    box-shadow: 0 3px 5px #0005;
+}
+
+legend {
+    margin: 0 0 1.5rem;
+    font-weight: 600;
+    font-size: large;
+}
+
+label {
+    display: inline-block;
+    margin: 0 2rem 1rem  0;
+    font-size: var(--font-size);
+    text-transform: uppercase;
+}
+
+input {
+    display: block;
+    padding: 0.45rem;
+}
+
+button {
+    background-color: #596D48;
+    color: #f5f5f5;
+    border: 0;
+    border-radius: 6px;
+    padding: 0.8rem 2rem;
+}
+
 
