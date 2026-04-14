@@ -64,7 +64,7 @@ legend {
 
 label {
     display: inline-block;
-    margin: 0 2rem 1rem  0;
+    margin: 0 2rem 1.5rem  0;
     font-size: var(--font-size);
     text-transform: uppercase;
 }
@@ -82,4 +82,11 @@ button {
     padding: 0.8rem 2rem;
 }
 
+.login-link {
+    margin-left: 2rem;
+    font-size: var(--font-size);
+}
 
+.login-link a {
+    color: #000;
+}
